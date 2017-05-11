@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Montserrat:700|Ubuntu+Condensed');
 
 
 
@@ -11,7 +11,7 @@ html, body {
     vertical-align: baseline;
     background: transparent;
 	background-color: #F0F0F0;
-	
+	font-family: 'Droid Sans', sans-serif;
 }
 h1{
 	padding-left:50px;
@@ -43,7 +43,7 @@ ul#navMenu li a {
 }
 
 ul#navMenu li a:hover {
-    background-color: #f44336;
+    background-color: #FFF;
 	color: #333;
 }
 
@@ -52,7 +52,7 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 }
 hr{
-	margin-top: 1px;
+	margin-top: 0px;
 }
 div#main{
 	
@@ -61,17 +61,41 @@ div#main{
 }
 ul#social{
 	display:inline-block;
+	padding-left:0;
+
 }
 ul#social li{
 	list-style-type: none;
 	margin:3px;
 	padding:2px;
+	padding-right:6px;
 	border-radius: 6px;
-	background-color:#E0E0E0;
-		
+	background-color:#333;	
 }
-ul#social li a{
-	color:#333!important;
+ul#social a{
+	color:#FFF!important;
 	text-decoration:none !important;
 	font-family: 'Ubuntu Condensed', sans-serif;
+	
+}
+ul#social a i{
+	margin-right:4px;
+}
+
+/* Forward */
+.hvr-forward {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-animation-timing-function: ease-out; /* Safari 4.0 - 8.0 */
+    animation-timing-function: ease-out;
+}
+.hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+  -webkit-transform: translateX(16px);
+  transform: translateX(16px);
 }
