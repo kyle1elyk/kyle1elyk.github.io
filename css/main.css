@@ -1,1 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans+Condensed:300');
 
+
+html, body {
+	margin:0;
+	padding:0;
+	background-color: #F0F0F0;
+	
+}
+header{
+	padding-left:50px;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+div#main{
+	
+	padding-left:30px;
+	padding-right:30px;
+}
+ul#social{
+	display:inline-block;
+}
+ul#social li{
+	list-style-type: none;
+	margin:3px;
+	padding:2px;
+	border-radius: 6px;
+	background-color:#E0E0E0;
+		
+}
+ul#social li a{
+	text-decoration:none !important;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
