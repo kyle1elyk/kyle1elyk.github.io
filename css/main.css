@@ -47,7 +47,13 @@ ul#navMenu li a:hover {
 	color: #333;
 }
 
-
+div#main{
+	margin: auto;
+    width: 75%;
+}
+div#main p{
+	text-indent:20px;
+}
 h1{
 	font-family: 'Montserrat', sans-serif;
 }
